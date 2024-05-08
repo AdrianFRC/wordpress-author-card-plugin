@@ -1,0 +1,48 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely
+ */
+.wp-block-post-author-container {
+  padding-inline: 20%;
+}
+
+.wp-block-post-author-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .wp-block-post-author-card {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+  }
+}
+.wp-block-post-author-card > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.wp-block-post-author-card > div > p:first-child {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.wp-block-post-author-card > div > p:last-child {
+  font-size: 0.85rem;
+}
+
+.bio-hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

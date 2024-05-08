@@ -1,0 +1,35 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely
+ */
+ .wp-block-post-author-container{
+	padding-inline: 20%;
+}
+ .wp-block-post-author-card {
+	display: flex;
+	align-items: center;
+	justify-content:flex-start;
+	gap: 30px;
+}
+@media only screen and (max-width: 600px) {
+	.wp-block-post-author-card {
+		text-align: center;
+		flex-direction: column;
+		justify-content:center;
+		gap: 0px;
+	}
+  }
+
+.wp-block-post-author-card > img {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+}
+.wp-block-post-author-card > div > p:first-child{
+	font-size: 1rem;
+	font-weight: bold;
+}
+.wp-block-post-author-card > div > p:last-child{
+	font-size: 0.85rem;
+} 
