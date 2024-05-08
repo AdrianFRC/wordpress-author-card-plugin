@@ -1,0 +1,1 @@
+# wordpress-author-card-plugin
